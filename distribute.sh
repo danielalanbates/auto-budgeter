@@ -10,9 +10,9 @@
 #
 # One-time local setup:
 #   xcrun notarytool store-credentials "BudgetTracker-Notary" \
-#     --apple-id "danielalanbates@live.com" \
-#     --team-id "MG4YW8XX2Z" \
-#     --password "xxxx-xxxx-xxxx-xxxx"
+#     --apple-id "your-apple-id@example.com" \
+#     --team-id "YOUR_TEAM_ID" \
+#     --password "your-app-specific-password"
 
 set -euo pipefail
 cd "$(dirname "$0")"
